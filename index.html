@@ -17,9 +17,9 @@
         <!-- Make nav sticky to top backlog #13-->
         <nav id="nav-bar">
             <ul>
-                <li><a href="" class="nav-link">About</a></li>
-                <li><a href="" class="nav-link">Information</a></li>
-                <li><a href="" class="nav-link">Contact</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#information" class="nav-link">Information</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
             </ul>
         </nav>
     </header>`
@@ -29,22 +29,35 @@
     <div class="hero-container size-mbl size-tbl size-web">
         <h4 class="hero-text">Teambuilding</h4>
         <div class="hero-button" style="width: 100px"">
-            <p class="hero-paragraph">Click here!</p>
+            <p class="hero-paragraph">Click here for more!</p>
         </div>
     </div>
+
+    <section class="statistic">
+        <img style="width: 400px;" src="/public/resources/images/8741.jpg" alt="">
+    </section>
+
+    <section id="about" class="about">
+        <h1>Why us?</h1>
+    </section>
 
     <!-- Video embed in div? -->
 
     <div class="video-container" style="text-align: center;">
-        <video width=80%" height="auto" controls autoplay>
+        <video width=40%" height="auto" controls autoplay>
             <source id="video" src="./public/resources/video/TeamBuilding.mp4" type="video/mp4">
         </video>
     </div>`
 
+    <section id="information" class="information">
+        <h1>But why listen to us?</h1>
+    </section>
+
+    <section id="products"></section>
 
     <h2>Want to know more?</h2>
     
-    <form action="" id="form" class="cta" style="background: lawngreen;">
+    <form action="https://www.freecodecamp.com/email-submit" id="form" class="cta" style="background: lawngreen;">
         <h5>Enter your mail to subscribe to..</h5>
         <input type="email" name="" required="" id="email" placeholder="Enter email..">
         <div class="cta-button" style="background: #8D8D8D; width: 110px; height: 46px; border-radius: 10%; text-align: center; padding: 2px 1px 2px 1px;" >

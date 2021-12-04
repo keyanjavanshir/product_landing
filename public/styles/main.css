@@ -1,2 +1,27 @@
 /* create root colors for main */ 
 /* focus on media queries for mobile first */
+
+:root {
+    /* colors */
+    --color-lightblue: #00B1FF; 
+    --color-white: #FFFFFF;
+    --color-back: #000000;
+
+    /* font sizes */
+    --big-font: 36px;
+    --medium-font: 20px;
+    --regular-font: 14px;
+    --small-font: 10px;
+
+    /* button font size */
+    --button-font: 13px;
+}
+
+body {
+    color: var(--color-white);
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+}

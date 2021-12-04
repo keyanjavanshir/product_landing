@@ -4,7 +4,7 @@ User Story #2: I can see an image within the header element with a corresponding
 
 User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar". OK
 
-User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
+User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.OK
 
 User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
 
